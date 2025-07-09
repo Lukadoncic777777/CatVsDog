@@ -176,8 +176,8 @@ def main(args):
             accepted+=1
         else:
             wrong_answer+=1
-        print(f'all:{accepted+wrong_answer},AC:{accepted},WA:{wrong_answer}')
-
+        
+    print(f'all:{accepted+wrong_answer},AC:{accepted},WA:{wrong_answer},Accuracy:{accepted/(accepted+wrong_answer)}')
     return
 
 
